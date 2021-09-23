@@ -47,6 +47,4 @@ client.on("messageCreate", (msg) => {
     }
 })
 
-console.log(process.env.TOKEN)
-
 client.login(process.env.TOKEN)
