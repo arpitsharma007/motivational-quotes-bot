@@ -10,7 +10,7 @@ const client = new Discord.Client({
 
 const sadWords = ["sad", "depressed", "unhappy", "angry"];
 
-const encouragements = ["Cheer up!", "Hang in there!", "You are a great person", "Death is ultimate truth my friend :p"]
+const encouragements = ["Cheer up!", "Hang in there!", "You are a great person"]
 
 const getQuote = () => {
     return fetch("https://zenquotes.io/api/random")
